@@ -16,6 +16,7 @@ namespace TestProject_gridview.Controllers
             var EmployeeList = db.Employee.Where(x=>x.IsActive==false).ToList();
             return View(EmployeeList);
         }
+        //post method
         [HttpPost]
         public ActionResult Index(Employee emp)
         {
