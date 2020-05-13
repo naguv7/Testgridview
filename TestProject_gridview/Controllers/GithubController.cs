@@ -13,5 +13,10 @@ namespace TestProject_gridview.Controllers
         {
             return View();
         }
+
+        public ActionResult Index1()
+        {
+            return View();
+        }
     }
 }
